@@ -100,7 +100,17 @@ body {
 
 
 .contact{
+   display: flex;
+   justify-content: space-around;
 
+
+}
+.contact div{
+		background-color: #006666;
+		flex-basis: 47%;
+		height: 90%;
+	    margin-top: 5%;
+	    padding: 10px;
 
 }
 
