@@ -1,39 +1,53 @@
 
+@media(min-width: 400px){
 
+body {
+  height: 100%;
+  margin: 0;
+}
+.container{
 
-.Info{
-	border: 1px #ccc solid;
-	width:20%;
-	height: 100%;
-	position: absolute;
+ display: flex;
+  height: 100%;
+  margin:0;
+  position: absolute;
+  	background-color: #006666;
+
 
 }
-
-
-.about{
-	display: flex;
-
-	/*
-	align-items: flex-start;
-	align-items: flex-end;
-	align-items: flex-center;
-	flex-direction: column;*/
-	justify-content: flex-start;
-	
-}
-.about div{
+.container div{
+	margin:0;
 	border:1px #ccc solid;
 	padding: 10px;
-	flex :wrap;
-}
-
-
-.objective{
-	flex:4;
 	
 }
 
-.img{
-	flex:6;
+
+.leftcolumn{
+	
+	flex: 2;
+}
+
+
+.rightcolumn{
+	 justify-content: space-between;
+	flex:19;
+
+	
 	
 }
+.about{
+	height: 33%;
+}
+.portfolio{
+	height: 33%;
+}
+
+.contact{
+	height: 33%;
+}
+
+
+	}
+	
+
