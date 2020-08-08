@@ -3,48 +3,73 @@
 
 body {
   height: 100%;
-  margin: 0;
+  margin: 0px;
 }
 .container{
 
  display: flex;
   height: 100%;
-  margin:0;
   position: absolute;
-  	background-color: #006666;
+  
+  background-color: #006666;
 
 
 }
 .container div{
-	margin:0;
+	margin: 0px;
 	border:1px #ccc solid;
-	padding: 10px;
+	
+	
+
 	
 }
 
-
-.leftcolumn{
-	
+.leftcolumn{	
+	background-color:#664d00;
 	flex: 2;
 }
-
-
 .rightcolumn{
-	 justify-content: space-between;
+	
+	
 	flex:19;
-
+	
+}
+.rightcolumn div{
+	height: 33%;
+	background-color:#664d00;
 	
 	
 }
 .about{
-	height: 33%;
+		
+	display: flex;
+	
+
 }
+.about div{
+	
+	height: 100%;
+	width: 50%;	
+	
+}
+.objective{
+
+}
+.img{
+	background-image: url(2.jpg);
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+}
+
 .portfolio{
-	height: 33%;
+	
+
 }
 
 .contact{
-	height: 33%;
+
+
 }
 
 
