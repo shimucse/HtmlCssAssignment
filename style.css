@@ -74,7 +74,7 @@ body {
 	margin:5%;
 }
 .img{
-	background-image: url(2.jpg);
+	background-image: url(3.jpg);
 	float: right;
 	width: 100%;
 	height: 100%;
@@ -83,12 +83,18 @@ body {
 
 .portfolio{
 	display: flex;
+
 	justify-content: space-around;
 }
 .portfolio div{
 	height: 100%;
 	width: 31%;	
 	background-color: #006666;
+}
+@media screen and (max-width: 600px) {
+  .portfolio div{
+    flex-direction: column;
+  }
 }
 
 
