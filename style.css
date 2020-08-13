@@ -1,68 +1,82 @@
 
-/*@media(min-width: 400px){*/
-
+@media screen and (max-width: 400px) {
+  .portfolio{
+    flex-direction: column;
+  }
+  .portfolio div{
+	margin-top: 2%;
+	height: 98%;
+	width: 96%;	
+	background-color: #006666;
+}
+}
 body {
   height: 100%;
   margin: 0px;
 }
 .wraper{
 	margin: auto;
-	width: 922px;
+	width: 950px;
 }
-.container{
+.container div {
+	margin: 0px;
+
+}
+.container1{
+
+ background-color: #ffccdd; 
 
  display: flex;
-  height: 100%;  
+ justify-content: space-between;
   
-  background-color: #008B8B;
 
 
 }
-.container div{
-	margin: 0px;	
-}
+
 
 .leftcolumn{	
+	flex-basis:20%;	
+	background-color:  #ff99bb;
 	
-	flex: 3;
-	
-	border:1px #ccc solid;
 }
 
 .rightcolumn{	
-	
-	flex:19;
+
+	background-color:  #ff99bb;
+	flex-basis:78%;
+
 	
 }
 .rightcolumn div{
-	height: 33%;
 	
 }
 .about{
 		
 	display: flex;
+	position:relative;
 	
 
 }
 .about div{
 	
 	height: 100%;
-	width: 50%;	
+	width: 45%;	
+    margin-left: 5%;
 	
 }
 .objective{
-  margin-left: 20%;
 }
 #table1 {
 	border: 1px solid black;
-	width: 80%;
+	width: 95%;
 }
 #table1,th ,td{
+
 	border: 1px solid black;
 	
 }
 #table1 td{
-	padding: 5px;
+		padding: 3%;
 	font-size: small;
 	
 }
@@ -72,10 +86,9 @@ body {
 	font-family:;
 	margin:5%;
 }
-.img{
-	
-float: right;	
-	
+.profile{
+	right: 0;
+	position: absolute;
 }
 
 .portfolio{
@@ -86,20 +99,16 @@ float: right;
 .portfolio div{
 	margin-top: 2%;
 	height: 98%;
-	width: 31%;	
+	width: 32%;	
 	background-color: #006666;
 }
-@media screen and (max-width: 600px) {
-  .portfolio div{
-    flex-direction: column;
-  }
-}
 
 
 
 
-.img{
-	margin-top:0%;
+
+.prothfolioImg{
+	padding:3%;
 	width: 95%;
 }
 
@@ -119,7 +128,6 @@ float: right;
 
 }
 
+.prothfolioImg{
 
-/*	}*/
-	
-
+}
