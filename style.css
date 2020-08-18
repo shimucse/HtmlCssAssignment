@@ -1,15 +1,17 @@
+@media (min-width: 1024px) {
 
-@media screen and (max-width: 400px) {
-  .portfolio{
-    flex-direction: column;
-  }
-  .portfolio div{
-	margin-top: 2%;
-	height: 98%;
-	width: 96%;	
-	background-color: #006666;
+
+ .portfolio{
+	display: flex;
+		justify-content: space-around;
+
+	flex-direction: row;
 }
+
+
 }
+
+
 body {
   height: 100%;
   margin: 0px;
@@ -24,7 +26,7 @@ body {
 }
 .container1{
 
- background-color: #ffccdd; 
+ background-color: #F0FFFF; 
 
  display: flex;
  justify-content: space-between;
@@ -36,13 +38,13 @@ body {
 
 .leftcolumn{	
 	flex-basis:20%;	
-	background-color:  #ff99bb;
+	background-color:  #5AB9EA;
 	
 }
 
 .rightcolumn{	
 
-	background-color:  #ff99bb;
+	background-color:  #5680E9;
 	flex-basis:78%;
 
 	
@@ -90,7 +92,25 @@ body {
 	right: 0;
 	position: absolute;
 }
+/*start from here*/
+.portfolio{
+	
+}
+.portfolio div{
+	margin-top: 2%;
+	height: 98%;
+	width: 100%;	
+	background-color: #8860D0;
+}
 
+.prothfolioImg{
+	display: block;
+	padding-bottom:5%;
+  margin-left: auto;
+  margin-right: auto
+
+}
+/*
 .portfolio{
 	display: flex;
 
@@ -100,17 +120,13 @@ body {
 	margin-top: 2%;
 	height: 98%;
 	width: 32%;	
-	background-color: #006666;
+	background-color: #8860D0;
 }
-
-
-
-
-
 .prothfolioImg{
 	padding:3%;
 	width: 95%;
 }
+*/
 
 
 .contact{
@@ -120,7 +136,6 @@ body {
 
 }
 .contact div{
-		background-color: #006666;
 		flex-basis: 47%;
 		height: 80%;
 	    margin-top: 5%;
